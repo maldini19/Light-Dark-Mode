@@ -21,23 +21,6 @@ function toggleDarkLightMode(isDark) {
     isDark ? toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon') : toggleIcon.children[1].classList.replace('fa-moon','fa-sun');
     isDark ? ImageMode('dark') : ImageMode('light')
 }
-// Dark Mode Styles
-// function darkMode() {
-//     nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
-//     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
-//     toggleIcon.children[0].textContent = 'Dark Mode';
-//     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-//     ImageMode('dark')
-// }
-
-// // Light Mode Styles
-// function lightMode() {
-//     nav.style.backgroundColor = 'rgb(255 255 255 / 50%)'
-//     textBox.style.backgroundColor = 'rgb(0 0 0 / 50%))';
-//     toggleIcon.children[0].textContent = 'Light Mode';
-//     toggleIcon.children[1].classList.replace('fa-moon','fa-sun');
-//     ImageMode('light')
-// }
 
 // Switch Theme
 function switchTheme(event) {
